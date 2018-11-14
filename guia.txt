@@ -12,26 +12,33 @@ Este directorio está especificado como
 	volumes:
       		- ~/data:/data
 donde ~/data es el directorio en el host y /data el directorio en docker
-En el directorio ~/data copiar el dataset adjunto
+En el directorio ~/data copiar el dataset o los datasets de prueba
 
 3. ejecutar el comando: 
-docker-compose up --scale taskmanager=n
-donde n es el número de taskmanager
+docker-compose up
+o
+docker-compose up --scale taskmanager=n (donde n es el número de taskmanager)
 
-4. acceder a la interfaz web por el navegador a través de http://localhost/8081 si no se ha cambiado el puerto por defecto en el archivo docker-compose.yml
+4. ejecutar el archivo .sh con los siguientes parámetros
+- el # de la consulta
+- la ruta en el host donde se encuentra el .jar que se va a ejecutar
+- la ruta del volumen compartido entre el host y el contenedor en docker (ver paso 3)
+- la ruta al dataset en el contenedor en docker (ver final del paso 3)
+Ejemplo: 
+./run-test.sh 1 ~/sparql2flink-test/query-1.0-SNAPSHOT.jar /data /data/dataset.nt
 
-5. en la interfaz web, hacer clic en 
-Submit new job
-	Add new+
-		adicionar el archivo query-1.0-SNAPSHOT.jar, adjunto en el correo
-		presionar upload
-	Seleccionar el archivo .jar cargado
-En el campo Entry Class especificar la clase que se va a ejecutar, en ese caso 		corresponde a cada consulta, por ejemplo, para especificar la consulta 1, copiar 	lo siguiente: org.univalle.rdf.out.Query1a
-En el campo Program Arguments especificar dos parámetros: el dataset y el directorio de salida de resultados. Ejemplo, --dataset /data/dataset.ttl --output /data/bsbm5/
-Este directorio corresponde al dirección en docker y que a su vez es el compartido en el host.
-Presionar el botón Submit
+No es necesario especificar la clase dentro del .jar que se va a ejecutar, por defecto se ejecuta
+org.univalle.rdf.out.Query
 
-6. Repetir el paso 5 por cada consulta cambiando el nombre específico. NO hay necesidad de volver a subir el archivo .jar
+5. El archivo .sh genera un archivo con nombre query-time.txt donde se almacena el tiempo de cada
+consulta. Este archivo se encontrará en la carpeta desde donde se ejecutó el .sh
+El tiempo de la consulta no incluye el tiempo de carga del dataset, ni tampoco el tiempo de creación
+de creación del archivo con el resultado de la consulta.
+
+
+NOTA: se asume que docker-compose ya está levantado.
+
+
 
 
 
