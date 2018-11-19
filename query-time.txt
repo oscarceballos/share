@@ -1,1 +1,2 @@
 Query 1 time:  4851
+Query 1 time:  5739

@@ -1,41 +1,48 @@
 #!/bin/bash
 
+#up docker
+cd docker-compose
+docker-compose up -d --scale taskmanager=$5
+cd ..
+
 # copy the .jar file to container
-docker cp $2 $(docker ps --filter name=jobmanager --format={{.ID}}):$3
+JOBMANAGER_CONTAINER=$(docker ps --filter name=jobmanager --format={{.ID}})
+docker cp $2 "$JOBMANAGER_CONTAINER":$3/job.jar
 
 # run the .jar file
-docker exec -it $(docker ps --filter name=jobmanager --format={{.ID}}) flink run -m jobmanager:6123 -c org.univalle.rdf.out.Query /data/query-1.0-SNAPSHOT.jar --dataset $4 --output $3/
+docker exec -it "$JOBMANAGER_CONTAINER" flink run -p $6 $3/job.jar --dataset $4 --output $3/
 
 # makes a request to REST API
 JSON=`curl "http://localhost:8081/joboverview/completed"`
 
-# get the job id
-JID1=`echo ${JSON} | jq '.jobs[].jid'`
-
-JID2="${JID1//\"}"
+# get id of first job
+JOB_ID=`echo ${JSON} | jq '.jobs[0].jid'`
 
 # makes a request to REST API taking into account the job id
-JSON_JID=`curl http://localhost:8081/jobs/${JID2}`
+JSON_JOB=`curl http://localhost:8081/jobs/${JOB_ID//\"}`
 
 # get durations from each subtask except the first and last
-i=0
-DURATION=0
-for d in `echo ${JSON_JID} | jq '.vertices[].duration'`; do
-        let DURATION[i]=d
-        let i+=1
-done
+DURATIONS=`echo ${JSON_JOB} | jq '.vertices[].duration'`
+DURATIONS_ARRAY=(`echo ${DURATIONS[*]}`)
 
-# calculates the time of subtasks
+# calculates the time of subtasks except the first and the last two
 j=0
 TIME=0
-while [ $j -lt $[${#DURATION[*]} - 1] ]; do
+while [ $j -lt $[${#DURATIONS_ARRAY[*]} - 2] ]; do
     if [ $j -ne 0 ]; then
-        let TIME+=${DURATION[$j]}
+        let TIME+=${DURATIONS_ARRAY[$j]}
     fi
     let j+=1
 done
 
-# export total time into txt file
-echo "Query" $1 "time: " $TIME >> query-time.txt
+echo "TIME=" ${TIME}
+
+# export total time into .txt file
+echo "query-"$1"-time=" $TIME >> query-time.txt
+
+#down docker
+cd docker-compose
+docker-compose down -v
+cd ..
 
 exit
