@@ -37,7 +37,6 @@ if [ "$1" = "help" ]; then
 elif [ "$1" = "jobmanager" ]; then
     echo "Starting Job Manager"
     sed -i -e "s/jobmanager.rpc.address: localhost/jobmanager.rpc.address: ${JOB_MANAGER_RPC_ADDRESS}/g" "$FLINK_HOME/conf/flink-conf.yaml"
-#    sed -i -e "s/jobmanager.heap.size: jobmanager.heap.size: ${JOB_MANAGER_HEAP_SIZE}" "$FLINK_HOME/conf/flink-conf.yaml"
     echo "blob.server.port: 6124" >> "$FLINK_HOME/conf/flink-conf.yaml"
     echo "query.server.port: 6125" >> "$FLINK_HOME/conf/flink-conf.yaml"
 
@@ -46,7 +45,6 @@ elif [ "$1" = "jobmanager" ]; then
 elif [ "$1" = "taskmanager" ]; then
     sed -i -e "s/jobmanager.rpc.address: localhost/jobmanager.rpc.address: ${JOB_MANAGER_RPC_ADDRESS}/g" "$FLINK_HOME/conf/flink-conf.yaml"
     sed -i -e "s/taskmanager.numberOfTaskSlots: 1/taskmanager.numberOfTaskSlots: $(grep -c ^processor /proc/cpuinfo)/g" "$FLINK_HOME/conf/flink-conf.yaml"
-#    sed -i -e "s/taskmanager.heap.size: taskmanager.heap.size: ${TASK_MANAGER_HEAP_SIZE}" "$FLINK_HOME/conf/flink-conf.yaml"
     echo "blob.server.port: 6124" >> "$FLINK_HOME/conf/flink-conf.yaml"
     echo "query.server.port: 6125" >> "$FLINK_HOME/conf/flink-conf.yaml"
 

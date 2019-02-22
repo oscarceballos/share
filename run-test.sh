@@ -35,10 +35,9 @@ while [ $j -lt $[${#DURATIONS_ARRAY[*]} - 2] ]; do
     let j+=1
 done
 
-echo "TIME=" ${TIME}
-
 # export total time into .txt file
-echo "query-"$1"-time=" $TIME >> query-time.txt
+DS=(${4//// })
+echo "dataset:"${DS[${#DS[*]}-1]}" query:"$1" taskmanager:"$5" parallelism:"$6" time:"$TIME >> queries-time.txt
 
 #down docker
 cd docker-compose

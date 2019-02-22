@@ -19,7 +19,7 @@
 version: "2.1"
 services:
   jobmanager:
-    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.3.2}
+    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.7.1}
     expose:
       - "6123"
     ports:
@@ -29,9 +29,13 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     volumes:
       - ~/data:/data
+      - ~/data/flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
+      - /tmp:/tmp
+    mem_limit: 7168m
+    mem_reservation: 256m
 
   taskmanager:
-    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.3.2}
+    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.7.1}
     expose:
       - "6121"
       - "6122"
@@ -44,3 +48,7 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     volumes:
       - ~/data:/data
+      - ~/data/flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
+      - /tmp:/tmp
+    mem_limit: 6144m
+    mem_reservation: 256m

@@ -1,0 +1,9 @@
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:3 time:0
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset300mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset20mb.nt query:1 taskmanager:4 parallelism:4 time:0
+dataset:dataset20mb.nt query:1 taskmanager:4 parallelism:4 time:0

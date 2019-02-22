@@ -10,7 +10,7 @@ PASOS PARA PROBAR CONSULTAS EN DOCKER
 directorio para compartir datos entre el host y el contenedor en docker.
 Este directorio está especificado como 
 	volumes:
-      		- ~/data:/data
+- ~/data:/data
 donde ~/data es el directorio en el host y /data el directorio en docker
 En el directorio ~/data copiar el dataset o los datasets de prueba
 
