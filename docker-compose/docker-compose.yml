@@ -19,7 +19,7 @@
 version: "2.1"
 services:
   jobmanager:
-    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.7.1}
+    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.7.2}
     expose:
       - "6123"
     ports:
@@ -35,7 +35,7 @@ services:
     mem_reservation: 256m
 
   taskmanager:
-    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.7.1}
+    image: ${FLINK_DOCKER_IMAGE_NAME:-flink:1.7.2}
     expose:
       - "6121"
       - "6122"
