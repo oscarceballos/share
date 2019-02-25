@@ -29,7 +29,7 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     volumes:
       - ~/data:/data
-      - ~/data/flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
+      - flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
       - /tmp:/tmp
     mem_limit: 7168m
     mem_reservation: 256m
@@ -48,7 +48,7 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     volumes:
       - ~/data:/data
-      - ~/data/flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
+      - flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
       - /tmp:/tmp
     mem_limit: 6144m
     mem_reservation: 256m
