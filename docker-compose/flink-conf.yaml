@@ -30,7 +30,7 @@
 # automatically configure the host name based on the hostname of the node where the
 # JobManager runs.
 
-jobmanager.rpc.address: localhost
+jobmanager.rpc.address: jobmanager
 
 # The RPC port where the JobManager is reachable.
 
@@ -248,6 +248,14 @@ taskmanager.memory.preallocate: true
 #==============================================================================
 
 #akka.ask.timeout: 30 min
+blob.server.port: 6124
+query.server.port: 6125
+blob.server.port: 6124
+query.server.port: 6125
+blob.server.port: 6124
+query.server.port: 6125
+blob.server.port: 6124
+query.server.port: 6125
 blob.server.port: 6124
 query.server.port: 6125
 blob.server.port: 6124
