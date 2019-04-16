@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------
+| OfferXYZ                                                                      |
+=================================================================================
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1>    |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature10>   |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature100>  |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1000> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1001> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1002> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1003> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1004> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1005> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature1006> |
+---------------------------------------------------------------------------------

@@ -1,0 +1,48 @@
+-----------------------------------------------------------------------------------------------------
+JOBMANAGER
+-----------------------------------------------------------------------------------------------------
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19 Tara, machine: Lenovo ideapad 310-15ISK, topology: Dual Core, model: Intel Core i7-6500U, L2 cache: 4096 KB, speeds: 3100 MHz max, core speeds (MHz) 1: 900 MHz 2: 900 MHz 3: 900 MHz 4: 900, network: Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter, memory: 12GiB
+
+-----------------------------------------------------------------------------------------------------
+TASKMANAGER (Dual Core)
+-----------------------------------------------------------------------------------------------------
+Nodo 1:
+kernel: 4.15.0-45-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB, topology: Dual Core, model: Intel Core i7-7500U, L2 cache: 4096 KiB, speed: 700 MHz min/max: 400/3500 MHz, core speeds (MHz): 1: 703 2: 784 3: 770 4: 720, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+Nodo 2:
+kernel: 4.15.0-45-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB, topology: Dual Core, model: Intel Core i7-7500U, L2 cache: 4096 KiB, speed: 2048 MHz min/max: 400/3500 MHz, core speeds (MHz): 1: 774 2: 758 3: 777 4: 792, network: Realtek RTL8821AE 802.11ac PCIe Wireless Network Adapter, memory: 12GiB
+
+Nodo 3:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Satellite S55-B, topology: Dual Core, model: Intel Core i7-4510U, L2 cache: 4096 KiB, core speeds (MHz): 1: 891 2: 842 3: 884 4: 849, network: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet, memory: 12GiB
+
+Nodo 4:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 310-15IKB, topology: Dual Core, model: Intel Core i7-7500U, L2 cache: 4096 KiB, core speeds (MHz): 1: 2700 2: 2700 3: 2700 4: 2700, Network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+
+Nodo 5:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB, topology: Dual Core, model: Intel Core i7-7500U, L2 cache: 4096 KiB, core speeds (MHz): 1: 812 2: 833 3: 853 4: 834, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+Nodo 6:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB, topology: Dual Core, model: Intel Core i7-7500U, L2 cache: 4096 KiB, core speeds (MHz): 1: 600 2: 600 3: 600 4: 600, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+-----------------------------------------------------------------------------------------------------
+TASKMANAGER (Quad Core)
+-----------------------------------------------------------------------------------------------------
+
+Nodo 7:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB, topology: Quad Core, model: Intel Core i7-8550U, L2 cache: 8192 KiB, core speeds (MHz): 1: 700 2: 700 3: 700 4: 700 5: 700 6: 700 7: 700 8: 700, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+
+Nodo 8:
+kernel: 4.15.0-46-generic x86_64, distribution: Linux Mint 19 Tara, machine: Lenovo ideapad 320-15IKB, topology: Quad Core, model: Intel Core i7-8550U, L2 cache: 8192 KB, core speeds (MHz) 1: 2549 2: 2562 3: 2561 4: 2564 5: 2580 6: 2561 7: 2576 8: 2583, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+
+Nodo 9:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB, topology: Quad Core, model: Intel Core i7-8550U, L2 cache: 8192 KiB, core speeds (MHz): 1: 1300 2: 1300 3: 1300 4: 1300 5: 1300 6: 1300 7: 1300 8: 1300, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+
+Nodo 10:
+kernel: 4.15.0-20-generic x86_64, distribution: Linux Mint 19.1 Tessa, machine: Lenovo ideapad 320-15IKB Touch, topology: Quad Core, model: Intel Core i7-8550U, L2 cache: 8192 KiB, core speeds (MHz): 1: 681 2: 695 3: 695 4: 694 5: 698 6: 690 7: 696 8: 699, network: Intel Dual Band Wireless-AC 3165, memory: 12GiB
+
+
+

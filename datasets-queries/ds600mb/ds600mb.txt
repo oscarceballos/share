@@ -1,0 +1,20 @@
+------------------------------------------------------
+DATASET WITH 6531 PRODUCTS
+------------------------------------------------------
+
+Generating Product Type Hierarchy...
+Product Type Hierarchy of depth 3 with 329 Product Types generated.
+
+Generating Product Features...
+10519 Product Features generated.
+
+Generating Producers and Products...
+135 Producers and 6531 Products have been generated.
+
+Generating Vendors and their Offers...
+63 Vendors and 130620 Offers have been generated.
+
+Generating RatingSite Data: Reviewers and Reviews... 
+7 Rating Sites with 3343 Persons and 65310 Reviews have been generated.
+
+2327671 triples generated.

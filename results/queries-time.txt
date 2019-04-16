@@ -1,0 +1,194 @@
+------------------------------------------------------------------------
+Dataset 300Mb - 1.166.383 Triples
+------------------------------------------------------------------------
+Query 1
+dataset:dataset300mb.nt query:1 taskmanager:3 parallelism:3 time:122832
+dataset:dataset300mb.nt query:1 taskmanager:6 parallelism:6 time:57413
+dataset:dataset300mb.nt query:1 taskmanager:10 parallelism:10 time:51531
+
+Query 2
+dataset:dataset300mb.nt query:2 taskmanager:3 parallelism:3 time:795388
+dataset:dataset300mb.nt query:2 taskmanager:6 parallelism:6 time:455132
+dataset:dataset300mb.nt query:2 taskmanager:10 parallelism:10 time:302248
+
+Query 3
+dataset:dataset300mb.nt query:3 taskmanager:3 parallelism:3 time:190670
+dataset:dataset300mb.nt query:3 taskmanager:6 parallelism:6 time:128088
+dataset:dataset300mb.nt query:3 taskmanager:10 parallelism:10 time:102175
+
+Query 4
+dataset:dataset300mb.nt query:4 taskmanager:3 parallelism:3 time:583853
+dataset:dataset300mb.nt query:4 taskmanager:6 parallelism:6 time:327032
+dataset:dataset300mb.nt query:4 taskmanager:10 parallelism:10 time:256473
+
+Query 5
+dataset:dataset300mb.nt query:5 taskmanager:3 parallelism:3 time:368018
+dataset:dataset300mb.nt query:5 taskmanager:6 parallelism:6 time:230738
+dataset:dataset300mb.nt query:5 taskmanager:10 parallelism:10 time:311603
+
+Query 7
+dataset:dataset300mb.nt query:7 taskmanager:3 parallelism:3 time:861562
+dataset:dataset300mb.nt query:7 taskmanager:6 parallelism:6 time:1330897
+dataset:dataset300mb.nt query:7 taskmanager:10 parallelism:10 time:1267243
+
+Query 8
+dataset:dataset300mb.nt query:8 taskmanager:3 parallelism:3 time:422384
+dataset:dataset300mb.nt query:8 taskmanager:6 parallelism:6 time:688809
+dataset:dataset300mb.nt query:8 taskmanager:10 parallelism:10 time:732652
+
+Query 10
+dataset:dataset300mb.nt query:10 taskmanager:3 parallelism:3 time:211395
+dataset:dataset300mb.nt query:10 taskmanager:6 parallelism:6 time:364561
+dataset:dataset300mb.nt query:10 taskmanager:10 parallelism:10 time:324196
+
+Query 11
+dataset:dataset300mb.nt query:11 taskmanager:3 parallelism:3 time:16435
+dataset:dataset300mb.nt query:11 taskmanager:6 parallelism:6 time:11244
+dataset:dataset300mb.nt query:11 taskmanager:10 parallelism:10 time:8592
+
+
+------------------------------------------------------------------------
+Dataset 600Mb - 2.327.671 Triples
+------------------------------------------------------------------------
+Query 1
+dataset:dataset600mb.nt query:1 taskmanager:3 parallelism:3 time:256576
+dataset:dataset600mb.nt query:1 taskmanager:6 parallelism:6 time:113940
+dataset:dataset600mb.nt query:1 taskmanager:10 parallelism:10 time:85645
+
+Query 2
+dataset:dataset600mb.nt query:2 taskmanager:3 parallelism:3 time:1740322
+dataset:dataset600mb.nt query:2 taskmanager:6 parallelism:6 time:880663
+dataset:dataset600mb.nt query:2 taskmanager:10 parallelism:10 time:561764
+
+Query 3
+dataset:dataset600mb.nt query:3 taskmanager:3 parallelism:3 time:354612
+dataset:dataset600mb.nt query:3 taskmanager:6 parallelism:6 time:197585
+dataset:dataset600mb.nt query:3 taskmanager:10 parallelism:10 time:139457
+
+Query 4
+dataset:dataset600mb.nt query:4 taskmanager:3 parallelism:3 time:1125090
+dataset:dataset600mb.nt query:4 taskmanager:6 parallelism:6 time:614375
+dataset:dataset600mb.nt query:4 taskmanager:10 parallelism:10 time:437908
+
+Query 5
+dataset:dataset600mb.nt query:5 taskmanager:3 parallelism:3 time:672632
+dataset:dataset600mb.nt query:5 taskmanager:6 parallelism:6 time:497255
+dataset:dataset600mb.nt query:5 taskmanager:10 parallelism:10 time:650690
+
+Query 7
+dataset:dataset600mb.nt query:7 taskmanager:3 parallelism:3 time:1537538
+dataset:dataset600mb.nt query:7 taskmanager:6 parallelism:6 time:2187254
+dataset:dataset600mb.nt query:7 taskmanager:10 parallelism:10 time:2503452
+
+Query 8
+dataset:dataset600mb.nt query:8 taskmanager:3 parallelism:3 time:863156
+dataset:dataset600mb.nt query:8 taskmanager:6 parallelism:6 time:1371862
+dataset:dataset600mb.nt query:8 taskmanager:10 parallelism:10 time:1227361
+
+Query 10
+dataset:dataset600mb.nt query:10 taskmanager:3 parallelism:3 time:411928
+dataset:dataset600mb.nt query:10 taskmanager:6 parallelism:6 time:664341
+dataset:dataset600mb.nt query:10 taskmanager:10 parallelism:10 time:617516
+
+Query 11
+dataset:dataset600mb.nt query:11 taskmanager:3 parallelism:3 time:26734
+dataset:dataset600mb.nt query:11 taskmanager:6 parallelism:6 time:15546
+dataset:dataset600mb.nt query:11 taskmanager:10 parallelism:10 time:12754
+
+------------------------------------------------------------------------
+Dataset 1Gb - 3.872.077 Triples
+------------------------------------------------------------------------
+Query 1
+dataset:dataset1gb.nt query:1 taskmanager:3 parallelism:3 time:319060
+dataset:dataset1gb.nt query:1 taskmanager:6 parallelism:6 time:158314
+dataset:dataset1gb.nt query:1 taskmanager:10 parallelism:10 time:132106
+
+Query 2
+dataset:dataset1gb.nt query:2 taskmanager:3 parallelism:3 time:3361668
+dataset:dataset1gb.nt query:2 taskmanager:6 parallelism:6 time:1849116
+dataset:dataset1gb.nt query:2 taskmanager:10 parallelism:10 time:10111236
+
+Query 3
+dataset:dataset1gb.nt query:3 taskmanager:3 parallelism:3 time:559359
+dataset:dataset1gb.nt query:3 taskmanager:6 parallelism:6 time:288586
+dataset:dataset1gb.nt query:3 taskmanager:10 parallelism:10 time:222420
+
+Query 4
+dataset:dataset1gb.nt query:4 taskmanager:3 parallelism:3 time:1743583
+dataset:dataset1gb.nt query:4 taskmanager:6 parallelism:6 time:1044246
+dataset:dataset1gb.nt query:4 taskmanager:10 parallelism:10 time:644649
+
+Query 5
+dataset:dataset1gb.nt query:5 taskmanager:3 parallelism:3 time:1065223
+dataset:dataset1gb.nt query:5 taskmanager:6 parallelism:6 time:725631
+dataset:dataset1gb.nt query:5 taskmanager:10 parallelism:10 time:1567785
+
+Query 7
+dataset:dataset1gb.nt query:7 taskmanager:3 parallelism:3 time:2591680
+dataset:dataset1gb.nt query:7 taskmanager:6 parallelism:6 time:3429328
+dataset:dataset1gb.nt query:7 taskmanager:10 parallelism:10 time:3222572
+
+Query 8
+dataset:dataset1gb.nt query:8 taskmanager:3 parallelism:3 time:1469584
+dataset:dataset1gb.nt query:8 taskmanager:6 parallelism:6 time:2320576
+dataset:dataset1gb.nt query:8 taskmanager:10 parallelism:10 time:1763050
+
+Query 10
+dataset:dataset1gb.nt query:10 taskmanager:3 parallelism:3 time:721496
+dataset:dataset1gb.nt query:10 taskmanager:6 parallelism:6 time:1195477
+dataset:dataset1gb.nt query:10 taskmanager:10 parallelism:10 time:1048263
+
+Query 11
+dataset:dataset1gb.nt query:11 taskmanager:3 parallelism:3 time:43901
+dataset:dataset1gb.nt query:11 taskmanager:6 parallelism:6 time:33566
+dataset:dataset1gb.nt query:11 taskmanager:10 parallelism:10 time:17840
+
+------------------------------------------------------------------------
+Dataset 2Gb - 7.719.881 Triples
+------------------------------------------------------------------------
+Query 1
+dataset:dataset2gb.nt query:1 taskmanager:3 parallelism:3 time:751334
+dataset:dataset2gb.nt query:1 taskmanager:6 parallelism:6 time:342276
+dataset:dataset2gb.nt query:1 taskmanager:10 parallelism:10 time:259009
+
+Query 2
+dataset:dataset2gb.nt query:2 taskmanager:3 parallelism:3 time:6720725
+dataset:dataset2gb.nt query:2 taskmanager:6 parallelism:6 time:3558424
+dataset:dataset2gb.nt query:2 taskmanager:10 parallelism:10 time:2095576
+
+Query 3
+dataset:dataset2gb.nt query:3 taskmanager:3 parallelism:3 time:1099811
+dataset:dataset2gb.nt query:3 taskmanager:6 parallelism:6 time:609332
+dataset:dataset2gb.nt query:3 taskmanager:10 parallelism:10 time:510948
+
+Query 4
+dataset:dataset2gb.nt query:4 taskmanager:3 parallelism:3 time:3470226
+dataset:dataset2gb.nt query:4 taskmanager:6 parallelism:6 time:1846320
+dataset:dataset2gb.nt query:4 taskmanager:10 parallelism:10 time:1406708
+
+Query 5
+dataset:dataset2gb.nt query:5 taskmanager:3 parallelism:3 time:2191308
+dataset:dataset2gb.nt query:5 taskmanager:6 parallelism:6 time:1871488
+dataset:dataset2gb.nt query:5 taskmanager:10 parallelism:10 time:1567785
+
+Query 7
+dataset:dataset2gb.nt query:7 taskmanager:3 parallelism:3 time:6344921
+dataset:dataset2gb.nt query:7 taskmanager:6 parallelism:6 time:6757945
+dataset:dataset2gb.nt query:7 taskmanager:10 parallelism:10 time:9331017
+
+Query 8
+dataset:dataset2gb.nt query:8 taskmanager:3 parallelism:3 time:2830141
+dataset:dataset2gb.nt query:8 taskmanager:6 parallelism:6 time:4092351
+dataset:dataset2gb.nt query:8 taskmanager:10 parallelism:10 time:3725568
+
+Query 10
+dataset:dataset2gb.nt query:10 taskmanager:3 parallelism:3 time:2844994
+dataset:dataset2gb.nt query:10 taskmanager:6 parallelism:6 time:2643502
+dataset:dataset2gb.nt query:10 taskmanager:10 parallelism:10 time:2714399
+
+Query 11
+dataset:dataset2gb.nt query:11 taskmanager:3 parallelism:3 time:79606
+dataset:dataset2gb.nt query:11 taskmanager:6 parallelism:6 time:44486
+dataset:dataset2gb.nt query:11 taskmanager:10 parallelism:10 time:42258
+
+-----------------------------------------------------------------------

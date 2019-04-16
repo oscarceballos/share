@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+| ProductFeature2                                                             |
+===============================================================================
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature24> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature26> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature27> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature28> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature29> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature30> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature31> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature32> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature33> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature34> |
+-------------------------------------------------------------------------------
