@@ -13,3 +13,4 @@ Based on the dataset generated, the SPARQL queries templates Q1, Q2, Q3, Q4, Q5,
 The above queries were transformed into a Flink program
 
 ## Results
+The main measure that was evaluated is the query execution time.
