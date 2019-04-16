@@ -1,0 +1,40 @@
+------------------------------------------------------
+PASOS PARA PROBAR CONSULTAS EN DOCKER
+------------------------------------------------------
+
+1. copiar la carpeta sparql2flink-test en un directorio 
+
+2. acceder al directorio docker-compose dentro del directorio sparql2fink-test
+
+3. tener en cuenta que en la configuración de docker-compose.yml, se debe especificar un
+directorio para compartir datos entre el host y el contenedor en docker.
+Este directorio está especificado como 
+	volumes:
+- ~/data:/data
+donde ~/data es el directorio en el host y /data el directorio en docker
+En el directorio ~/data copiar el dataset o los datasets de prueba
+
+4. salir del directorio docker-compose 
+
+5. sobre el directorio sparql2flink-test, ejecutar el archivo run-test.sh con los siguientes parámetros
+- el número de la consulta
+- la ruta en el host donde se encuentra el .jar que se va a ejecutar
+- la ruta del volumen compartido entre el host y el contenedor en docker (ver paso 3)
+- la ruta al dataset en el contenedor en docker (ver final del paso 3)
+- el número de taskmanager que tendrá Docker
+- el nivel de paralelización 
+Ejemplo: 
+./run-test.sh 1 /path/to/sparql2flink-test/query-1.0-SNAPSHOT.jar /data /data/dataset.nt 1 1
+
+
+No es necesario especificar la clase dentro del .jar que se va a ejecutar, por defecto se ejecuta
+org.univalle.rdf.out.Query
+
+5. El archivo .sh genera un archivo con nombre query-time.txt donde se almacena el tiempo de cada
+consulta. Este archivo se encontrará en la carpeta desde donde se ejecutó run-test.sh
+El tiempo de la consulta no incluye el tiempo de carga del dataset, ni tampoco el tiempo de creación
+de creación del archivo que contiene el resultado de la consulta.
+
+
+
+
