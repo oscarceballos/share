@@ -1,5 +1,5 @@
 # SPARQL2Flink library evaluation
-We setup an heterogeneous local cluster to run Flink programs with SPARQL2Flink library. The local cluster where the test are run is configured with one JobManager and ten TaskManager.
+We setup an heterogeneous local cluster to run Flink programs with [SPARQL2Flink library](https://github.com/oscarceballos/sparql2flink). The local cluster where the test are run is configured with one JobManager and ten TaskManager.
 
 Flink’s configurations are done in the flink-conf.yaml file which is part of Job- Manager and TaskManagers. The *jobmanager.heap.mb: 8192m* parameter was configured in JobManager. The *taskmanger.numberOfTaskSlots: 1* and *taskmanager.heap.mb: 8192m* parameters in TaskManagers. Beside, the *io.tmp.dirs: /tmp*, *akka.ask.timeout: 60 min*, *akka.client.timeout: 40 min*, *slot.idle.timeout: 5000000*, *slot.request.timeout: 3000000*, and *heartbeat.timeout: 9900000* parameters were configured in both.
 
