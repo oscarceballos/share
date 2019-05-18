@@ -1,0 +1,17 @@
+?property-->http://purl.org/dc/elements/1.1/date	?hasValue-->"2000-07-16"^^http://www.w3.org/2001/XMLSchema#date	
+?property-->http://purl.org/dc/elements/1.1/publisher	?hasValue-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/StandardizationInstitution1	
+?property-->http://www.w3.org/2000/01/rdf-schema#comment	?hasValue-->"pressingly genuinely heretically holiest indicating overdraw demolitionist instrumentalities indicated rimmers nonalcoholic dishwashers reinstatement killer surroundings injudiciousness mirk amoebic pentagons snouting nabob clemently gyral sampler varlets ichorous mislaid deprecating haystacks greasers lightheaded contractible indoctrinations dragoman sulphate redrill fells fabricates markets oversides troopships candlewicks fruitions"^^http://www.w3.org/2001/XMLSchema#string	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product27	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product4	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product8	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product173	
+?property-->http://www.w3.org/1999/02/22-rdf-syntax-ns#type	?hasValue-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product89	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product112	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product77	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product169	
+?property-->http://www.w3.org/2000/01/rdf-schema#label	?hasValue-->"hardener alpinism situational"^^http://www.w3.org/2001/XMLSchema#string	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product82	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product103	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product184	
+?property-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature	?isValueOf-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer5/Product200	

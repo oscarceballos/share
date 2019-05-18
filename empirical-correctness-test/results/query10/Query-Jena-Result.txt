@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| offer                                                                                | price                                                                      |
+=====================================================================================================================================================================
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor1/Offer2036> | "2742.29"^^<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/USD> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor1/Offer2182> | "7931.29"^^<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/USD> |
+| <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor1/Offer1564> | "2189.75"^^<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/USD> |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------

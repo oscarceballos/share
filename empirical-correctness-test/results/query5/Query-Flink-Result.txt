@@ -1,0 +1,5 @@
+?product-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product105	?productLabel-->"choking"^^http://www.w3.org/2001/XMLSchema#string	
+?product-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product141	?productLabel-->"cursedness"^^http://www.w3.org/2001/XMLSchema#string	
+?product-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer4/Product168	?productLabel-->"dioxides"^^http://www.w3.org/2001/XMLSchema#string	
+?product-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer2/Product61	?productLabel-->"doctrines agoras axil"^^http://www.w3.org/2001/XMLSchema#string	
+?product-->http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer3/Product95	?productLabel-->"edgers defensiveness"^^http://www.w3.org/2001/XMLSchema#string	

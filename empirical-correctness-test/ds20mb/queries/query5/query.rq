@@ -1,0 +1,22 @@
+# Query 5: Find product that are similar to a given product
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX bsbm-inst-data: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/>
+
+SELECT DISTINCT ?product ?productLabel
+WHERE {
+	?product rdfs:label ?productLabel . 	
+	FILTER (bsbm-inst-data:Product16 != ?product)
+	bsbm-inst-data:Product16 bsbm:productFeature ?prodFeature .
+	?product bsbm:productFeature ?prodFeature .
+	bsbm-inst-data:Product16 bsbm:productPropertyNumeric1 ?origProperty1 .
+	?product bsbm:productPropertyNumeric1 ?simProperty1 .  
+	FILTER (?simProperty1 < 1520 && ?simProperty1 > 120)
+	bsbm-inst-data:Product16 bsbm:productPropertyNumeric2 ?origProperty2 .
+	?product bsbm:productPropertyNumeric2 ?simProperty2 .
+	FILTER (?simProperty2 < 570 && ?simProperty2 > 170)
+}
+ORDER BY ?productLabel
+LIMIT 5
