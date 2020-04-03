@@ -1,0 +1,16 @@
+Generating Product Type Hierarchy...
+Product Type Hierarchy of depth 4 with 2011 Product Types generated.
+
+Generating Product Features...
+47884 Product Features generated.
+
+Generating Producers and Products...
+3956 Producers and 200000 Products have been generated.
+
+Generating Vendors and their Offers...
+2027 Vendors and 4000000 Offers have been generated.
+
+Generating RatingSite Data: Reviewers and Reviews... 
+204 Rating Sites with 102596 Persons and 2000000 Reviews have been generated.
+
+69494080 triples generated.

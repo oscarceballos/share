@@ -1,0 +1,15 @@
+(slice _ 5
+  (order (?productLabel)
+    (distinct
+      (project (?product ?productLabel)
+        (filter (exprlist (!= <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product16> ?product) (&& (< ?simProperty1 1520) (> ?simProperty1 120)) (&& (< ?simProperty2 570) (> ?simProperty2 170)))
+          (bgp
+            (triple ?product <http://www.w3.org/2000/01/rdf-schema#label> ?productLabel)
+            (triple <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product16> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> ?prodFeature)
+            (triple ?product <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> ?prodFeature)
+            (triple <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product16> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric1> ?origProperty1)
+            (triple ?product <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric1> ?simProperty1)
+            (triple <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product16> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric2> ?origProperty2)
+            (triple ?product <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric2> ?simProperty2)
+          ))))))
+

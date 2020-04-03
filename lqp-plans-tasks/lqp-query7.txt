@@ -1,0 +1,24 @@
+(project (?offer ?price ?vendor ?vendorTitle ?review ?revTitle ?reviewer ?revName ?rating1 ?rating2)
+  (leftjoin
+    (leftjoin
+      (bgp (triple <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product10> <http://www.w3.org/2000/01/rdf-schema#label> ?productLabel))
+      (bgp
+        (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/product> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product10>)
+        (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price> ?price)
+        (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/vendor> ?vendor)
+        (triple ?vendor <http://www.w3.org/2000/01/rdf-schema#label> ?vendorTitle)
+        (triple ?vendor <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country> <http://downlode.org/rdf/iso-3166/countries#GB>)
+        (triple ?offer <http://purl.org/dc/elements/1.1/publisher> ?vendor)
+        (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo> ?date)
+      )
+      (>= ?date "2008-07-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>))
+    (leftjoin
+      (leftjoin
+        (bgp
+          (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewFor> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product10>)
+          (triple ?review <http://purl.org/stuff/rev#reviewer> ?reviewer)
+          (triple ?reviewer <http://xmlns.com/foaf/0.1/name> ?revName)
+          (triple ?review <http://purl.org/dc/elements/1.1/title> ?revTitle)
+        )
+        (bgp (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating1> ?rating1)))
+      (bgp (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating2> ?rating2)))))

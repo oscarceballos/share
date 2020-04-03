@@ -1,0 +1,13 @@
+(slice _ 10
+  (distinct
+    (project (?offer ?price)
+      (filter (exprlist (<= ?deliveryDays 3) (> ?date "2000-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>))
+        (bgp
+          (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/product> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product15>)
+          (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/vendor> ?vendor)
+          (triple ?offer <http://purl.org/dc/elements/1.1/publisher> ?vendor)
+          (triple ?vendor <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country> <http://downlode.org/rdf/iso-3166/countries#GB>)
+          (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/deliveryDays> ?deliveryDays)
+          (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price> ?price)
+          (triple ?offer <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo> ?date)
+        )))))

@@ -1,0 +1,12 @@
+(slice _ 10
+  (order (?label)
+    (distinct
+      (project (?product ?label)
+        (filter (> ?value1 10)
+          (bgp
+            (triple ?product <http://www.w3.org/2000/01/rdf-schema#label> ?label)
+            (triple ?product <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductType11>)
+            (triple ?product <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature40>)
+            (triple ?product <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature417>)
+            (triple ?product <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric1> ?value1)
+          ))))))

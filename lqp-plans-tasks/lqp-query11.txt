@@ -1,0 +1,5 @@
+(distinct
+  (project (?property ?hasValue ?isValueOf)
+    (union
+      (bgp (triple <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature104> ?property ?hasValue))
+      (bgp (triple ?isValueOf ?property <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature104>)))))

@@ -1,0 +1,63 @@
+------------------------------------------------------------------------------------------------
+JOBMANAGER
+------------------------------------------------------------------------------------------------
+
+Model: iMac13.2, SO: Sierra 10.12.1, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 1TB
+
+
+------------------------------------------------------------------------------------------------
+TASKMANAGER
+------------------------------------------------------------------------------------------------
+
+Node 1:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 2:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 3:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 4:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 5:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 6:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 7:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 8:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 9:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 10:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 11:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 12:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+Node 13:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i7 3.4 GHz, RAM: 32GB, HD: 532GB
+
+------------------------------------------------------------------------------------------------
+
+Node 14:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i5 2.9 GHz, RAM: 32GB, HD: 532GB
+
+------------------------------------------------------------------------------------------------
+
+Node 15:
+Model: iMac13.2, SO: Mojave 10.14, Processor: Intel Quad Core i5 2.9 GHz, RAM: 16GB, HD: 532GB
+
+
+
+

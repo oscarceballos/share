@@ -1,0 +1,13 @@
+# Query 11: After deciding on a specific offer, the consumer wants to get all information that is directly related to this offer.
+
+PREFIX bsbm-inst: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf
+WHERE {
+	{ bsbm-inst:ProductFeature104 ?property ?hasValue }
+	UNION
+	{ ?isValueOf ?property bsbm-inst:ProductFeature104 }
+}

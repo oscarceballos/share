@@ -1,0 +1,19 @@
+(slice _ 20
+  (project (?title ?text ?reviewDate ?reviewer ?reviewerName ?rating1 ?rating2 ?rating3 ?rating4)
+    (order ((desc ?reviewDate))
+      (leftjoin
+        (leftjoin
+          (leftjoin
+            (leftjoin
+              (bgp
+                (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewFor> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18>)
+                (triple ?review <http://purl.org/dc/elements/1.1/title> ?title)
+                (triple ?review <http://purl.org/stuff/rev#text> ?text)
+                (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewDate> ?reviewDate)
+                (triple ?review <http://purl.org/stuff/rev#reviewer> ?reviewer)
+                (triple ?reviewer <http://xmlns.com/foaf/0.1/name> ?reviewerName)
+              )
+              (bgp (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating1> ?rating1)))
+            (bgp (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating2> ?rating2)))
+          (bgp (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating3> ?rating3)))
+        (bgp (triple ?review <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating4> ?rating4))))))
